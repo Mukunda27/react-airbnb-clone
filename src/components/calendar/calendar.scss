@@ -1,0 +1,28 @@
+.react-calendar {
+  width: 500px;
+  max-width: 100%;
+  background: white;
+  border: none;
+  border-radius: 20px;
+  font-family: "Noto Sans", sans-serif;
+  line-height: 1.125em;
+  position: relative;
+  z-index: 100;
+}
+
+.calendar {
+  border: none;
+  border-radius: 20px;
+  font-family: "Noto Sans", sans-serif;
+  background: white;
+
+  .calendar__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    p {
+      transform: translateY(7px);
+    }
+  }
+}

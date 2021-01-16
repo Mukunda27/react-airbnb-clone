@@ -1,0 +1,31 @@
+.banner {
+  background: #aaa url(../../assets/giordano-rossoni-X_p_guM2XtE-unsplash.jpg);
+  height: 90vh;
+  background-size: cover;
+  background-blend-mode: multiply;
+  position: relative;
+
+  .banner__content {
+    color: white;
+    width: 35%;
+    position: absolute;
+    left: 50px;
+    bottom: 30%;
+    font-family: "Noto Sans", sans-serif;
+    h1 {
+      font-size: 3.5rem;
+    }
+
+    button {
+      border-radius: px;
+      text-transform: inherit;
+      background-color: #ff7779;
+      color: white;
+    }
+  }
+}
+
+.places {
+  width: 80%;
+  margin: 60px auto;
+}

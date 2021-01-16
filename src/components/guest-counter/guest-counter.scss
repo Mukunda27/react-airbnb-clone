@@ -1,0 +1,22 @@
+.guest {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .guest__infoType {
+    font-weight: bold;
+  }
+
+  .guest__infoAge {
+    font-size: 0.75rem;
+  }
+}
+
+.guest__counter {
+  display: flex;
+  align-items: center;
+
+  h5 {
+    transform: translateY(3px);
+  }
+}
